@@ -1,4 +1,5 @@
 # 🧠 Neural Interface Prototype v2.1
+🔗 **Live Preview**: [Open Neural Interface](https://deproj.github.io/neural-interface-html-css-js/)
 
 > “What you see here is only the beginning.”
 
