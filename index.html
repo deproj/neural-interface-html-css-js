@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neural Interface Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Boot/Intro -->
+  <div class="intro" id="intro">
+    <div class="intro-text">
+      <h1>Initializing Neural Prototype...</h1>
+      <p>Calibrating visual shell<span id="dots">.</span></p>
+    </div>
+  </div>
+
+  <!-- Terminal Interface -->
+  <div class="interface hidden" id="interface">
+    <header class="top-bar">
+      <div class="project-name">Neural Interface v2.1</div>
+      <div class="status-light">● Stable</div>
+    </header>
+
+    <section class="command-area">
+      <div class="terminal-header">Live Interaction Stream</div>
+      <div class="terminal-window">
+        <div class="output" id="terminalOutput">
+          <p>> System online</p>
+          <p>> Awaiting input...</p>
+        </div>
+        <div class="input-line">
+          <span>> </span><input type="text" id="commandInput" placeholder="Type a command..." />
+        </div>
+      </div>
+    </section>
+
+    <section class="visualizer">
+      <div class="pulse-ring"></div>
+      <div class="data-stream">
+        <div class="stream-dot"></div>
+        <div class="stream-dot"></div>
+        <div class="stream-dot"></div>
+        <div class="stream-dot"></div>
+        <div class="stream-dot"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <p>This is a placeholder modal. Customize me or delete me!</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <!-- Neural UI Interface -->
+  <div class="neural-ui hidden" id="neuralUI">
+    <div class="top-bar-ui">
+      <span class="return-terminal" onclick="returnToTerminal()">⮌ Terminal</span>
+      <span class="ui-title">Neural Control Panel</span>
+    </div>
+    <div class="apps-grid">
+      <div class="app-icon">🔮</div>
+      <div class="app-icon">🧮</div>
+      <div class="app-icon">📂</div>
+      <div class="app-icon">🎵</div>
+      <div class="app-icon">💬</div>
+      <div class="app-icon">🌙</div>
+    </div>
+  </div>
+
+<div class="terminal-footer">
+  <p>Creator <a href="https://www.upwork.com/freelancers/~01352bbffb500934af" target="_blank">Deproj</a> — <a href="https://github.com/deproj" target="_blank">GitHub</a></p>
+</div>
+
+<!--
+╔════════════════════════════════════════════╗
+║  Neural Interface Prototype v2.1          ║
+║  Created by: deproj                       ║
+║  Upwork: https://www.upwork.com/freelancers/~01352bbffb500934af?mp_source=share  ║
+║  GitHub: https://github.com/deproj        ║
+║  Do not copy this UI. Intellectual property protected. ║
+╚════════════════════════════════════════════╝
+-->
+
+  <script src="script.js"></script>
+</body>
+</html>
