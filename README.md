@@ -41,9 +41,10 @@ Designed to feel alive, immersive, and dynamic, it demonstrates the *first layer
 
 > **Optimized for mobile view.**
 
-📱 This interface is **built for mobile phones** only.  
-Please open from a smartphone to experience it as intended.  
-(Desktop compatibility will be added later.)
+📱 This interface is **built for mobile phones**.  
+This interface is designed specifically for mobile phones to ensure a smooth, immersive experience.
+While it may function on desktop, mobile is the intended environment.
+Desktop enhancements are planned for future updates.
 
 ---
 
